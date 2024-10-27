@@ -11,10 +11,10 @@ public class ArrayListEx {
 
 
 
-        /*Iterator itr = list.iterator();
+        Iterator itr = list.iterator();
         while (itr.hasNext()) {
             System.out.println(itr.next());
-        }*/
+        }
 
         long count = list.stream().filter(fruit -> "Mango".equals(fruit)).count();
         System.out.println(count);
@@ -24,7 +24,7 @@ public class ArrayListEx {
 
 
 
-        /*if (!list.equals(list1)) {
+       /* if (!list.equals(list1)) {
             System.out.println("list and list1 are Un equal," +
                     " and their respective hash value are:" + "" + list.hashCode() + " and " + list1.hashCode());
         }*/
